@@ -1,0 +1,14 @@
+root@ip-10-10-74-237:~# pwd
+/root
+root@ip-10-10-74-237:~# ls
+CTFBuilder  Instructions  Rooms       thinclient_drives
+Desktop     Pictures      Scripts     Tools
+Downloads   Postman       secret.txt
+root@ip-10-10-74-237:~# cat flag.txt
+cat: flag.txt: No such file or directory
+root@ip-10-10-74-237:~# cat secret.txt
+password: ABC789xyz123
+root@ip-10-10-74-237:~# ssh root@10.10.248.114
+root@10.10.248.114's password: 
+Welcome to Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-107-generic x86_64)
+...
